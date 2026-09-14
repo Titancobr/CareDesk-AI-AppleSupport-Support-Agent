@@ -209,7 +209,7 @@ The following figures document the evaluation workflow and product experience de
 
 *Figure 5. Grounded diagnostic triage reply citing official Apple Support Standard Operating Procedures HT201222 and HT204166.*
 
-### Figure 6: IP-SAKTI Trust & Grounding Citation Inspector
+### Figure 6: CareDesk AI Trust & Grounding Citation Inspector
 ![Citation evidence](assets/images/fig6_citations_focus.png)
 
 *Figure 6. Inspector panel verifying exact provenance linking generation to Qdrant Cloud points #869, #127, and #374 with zero hallucination.*

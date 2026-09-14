@@ -21,7 +21,7 @@
 | **📄 6-Page Clean PDF Report** | Standalone, publication-ready PDF evaluation report meeting strict 6-page budget with zero overlap | [**caredesk_ai_evaluation_report.pdf**](caredesk_ai_evaluation_report.pdf) |
 | **📑 Full Evaluation Report** | In-depth technical report covering problem framing, baselines, failure modes, and headline critique | [**REPORT.md**](REPORT.md) |
 | **📋 15 Engineering Decisions** | Architectural trade-offs, design rationale, and non-obvious engineering choices | [**DECISION_LOG.md**](DECISION_LOG.md) |
-| **🏛️ System Architecture** | Detailed dual-engine FastAPI + Streamlit agent graph, state management, and IP-SAKTI | [**ARCHITECTURE.md**](ARCHITECTURE.md) |
+| **🏛️ System Architecture** | Detailed dual-engine FastAPI + Streamlit agent graph, state management, and CareDesk AI core | [**ARCHITECTURE.md**](ARCHITECTURE.md) |
 | **🎯 Golden Test Dataset** | 200 hand-curated Q&A evaluation pairs (175 stratified RAG + 25 adversarial guardrail attacks) | [**evals/hiver_golden_200.json**](RAG_enterPriseSystem/evals/hiver_golden_200.json) |
 | **🐳 Docker Containerization** | One-command full-stack containerization (FastAPI port 8000 + Streamlit port 8501) | [**docker-compose.yml**](docker-compose.yml) |
 
@@ -102,7 +102,7 @@ Customer Message (Tweet)
 [ Hybrid Qdrant Cloud Retriever ] ──► 3,657 points (hiver_support_history) + AppleCare SOPs
        │
        ▼
-[ IP-SAKTI Citation Verifier ] ──► Grounding check vs HT201222 / HT204166 SOPs
+[ CareDesk AI Citation Verifier ] ──► Grounding check vs HT201222 / HT204166 SOPs
        │
        ▼
 [ Groq Llama-3.3-70B Responder ] ──► Empathic, actionable, structured triage reply
@@ -234,9 +234,9 @@ In Figure 5, a customer initiates support with an open-ended inquiry. The planne
   <p><em>Figure 5: Diagnostic chat interface: Automated triage reply citing Apple Support SOP HT201222 (How to get help) and HT204166 (Common issues).</em></p>
 </div>
 
-### Auditable Citations via IP-SAKTI Trust & Grounding Inspector
+### Auditable Citations via CareDesk AI Trust & Grounding Inspector
 
-A core architectural requirement is that **every claim must be traceable to a retrieved evidence chunk**. The IP-SAKTI inspector decompiles the agent's response, verifies vector cosine similarity against indexed points, and flags citation confidence.
+A core architectural requirement is that **every claim must be traceable to a retrieved evidence chunk**. The CareDesk AI inspector decompiles the agent's response, verifies vector cosine similarity against indexed points, and flags citation confidence.
 
 <div align="center">
   <img src="assets/images/fig6_citations_focus.png" alt="Citations Grounding Inspector" width="880"/>
