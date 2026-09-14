@@ -22,7 +22,7 @@ else
 fi
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -r requirements-py311.txt
+python -m pip install -r requirements.txt
 python - <<'PY'
 import qdrant_client, logfire, nemoguardrails
 print('✅ qdrant_client, logfire, and nemoguardrails imported successfully')
