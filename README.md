@@ -26,6 +26,59 @@
 | **🐳 Docker Containerization** | One-command full-stack containerization (FastAPI port 8000 + Streamlit port 8501) | [**docker-compose.yml**](RAG_enterPriseSystem/docker-compose.yml) |
 
 ---
+---
+
+## Docker Quickstart
+
+Docker Compose starts the FastAPI backend and Streamlit UI as separate services on one shared network.
+
+### 1 — Configure environment
+
+```bash
+cp .env.example .env
+# Add GROQ_API_KEY for generated answers.
+# Add QDRANT_CLUSTER_ENDPOINT and QDRANT_API_KEY for cloud retrieval.
+```
+
+Qdrant is optional for a local smoke test. Without Qdrant credentials, the application starts and uses its local fallback behavior. A Groq key is required for full LLM-generated responses.
+
+### 2 — Build and start
+
+```bash
+docker compose up --build
+```
+
+Open:
+
+- Streamlit application: http://localhost:8501
+- FastAPI health check: http://localhost:8000/health
+- FastAPI readiness check: http://localhost:8000/ready
+
+The frontend reaches the backend through the Docker service name `backend`. Do not set `BACKEND_URL` to `localhost` for the Compose frontend.
+
+### 3 — Stop and inspect logs
+
+```bash
+docker compose down
+docker compose logs -f backend
+docker compose logs -f frontend
+```
+
+To rebuild after dependency or source changes:
+
+```bash
+docker compose build --no-cache
+docker compose up
+```
+
+The standalone image defaults to the API entrypoint:
+
+```bash
+docker build -t caredesk-ai:local .
+docker run --rm --env-file .env -p 8000:8000 caredesk-ai:local
+```
+
+---
 
 # 📊 Evaluation Report
 
