@@ -1,0 +1,228 @@
+[
+  {
+    "repair_id": "APP-2026-8901",
+    "serial": "F17X9K02MND6",
+    "customer_name": "Jordan Vance",
+    "customer_email": "jordan.vance@example.com",
+    "device": "iPhone 15 Pro Max 256GB",
+    "issue": "Cracked OLED display and touch latency after drop",
+    "stage": "QUALITY_ASSURANCE",
+    "stage_index": 4,
+    "coverage_type": "AppleCare+",
+    "deductible_quoted": 29.0,
+    "battery_health": 94,
+    "technician": "Alex Rivera (Genius Bar #042)",
+    "parts_used": [
+      "iPhone 15 Pro Max Display Module (OEM)",
+      "Adhesive Gasket Seal"
+    ],
+    "created_at": "2026-09-12T09:27:24.933535+00:00",
+    "updated_at": "2026-09-13T19:27:24.933797+00:00",
+    "estimated_completion": "Sep 14, 2026 01:27 AM",
+    "technician_notes": [
+      "Visual mechanical inspection completed. No enclosure bending.",
+      "Display assembly replaced with calibrated OEM panel.",
+      "Running 32-point Apple Diagnostic suite: TrueTone, Face ID, and digitizer pass."
+    ],
+    "customer_notifications": [
+      "Service order created. Quoted deductible: $29.00 under AppleCare+.",
+      "Repair commenced at Genius Bar.",
+      "Quality Assurance testing in progress."
+    ]
+  },
+  {
+    "repair_id": "APP-2026-7842",
+    "serial": "C02G80P0MD6R",
+    "customer_name": "Elena Rostova",
+    "customer_email": "elena.rostova@example.com",
+    "device": "MacBook Pro 16\" (M3 Max)",
+    "issue": "Coffee spill over keyboard, trackpad unresponsive, fans ramping",
+    "stage": "PARTS_ORDERED",
+    "stage_index": 2,
+    "coverage_type": "AppleCare+",
+    "deductible_quoted": 299.0,
+    "battery_health": 91,
+    "technician": "Marcus Chen (Apple Certified Mac Technician)",
+    "parts_used": [
+      "Top Case with Keyboard & Trackpad Assembly",
+      "I/O Daughter Board"
+    ],
+    "created_at": "2026-09-11T21:27:24.933812+00:00",
+    "updated_at": "2026-09-13T07:27:24.933813+00:00",
+    "estimated_completion": "Sep 15, 2026 09:27 PM",
+    "technician_notes": [
+      "Internal inspection confirms liquid contact on keyboard membranes.",
+      "Logic board dried and sonically cleaned with zero corrosion traces.",
+      "Ordered replacement Top Case from Apple Central Logistics."
+    ],
+    "customer_notifications": [
+      "MacBook checked in for Liquid Damage assessment.",
+      "Replacement parts ordered from Apple Logistics."
+    ]
+  },
+  {
+    "repair_id": "APP-2026-9055",
+    "serial": "H98KL019PQ23",
+    "customer_name": "Devon Miller",
+    "customer_email": "devon.miller@example.com",
+    "device": "iPhone 13 128GB",
+    "issue": "Battery health degraded to 74%, sudden shutdowns at 20%",
+    "stage": "READY_FOR_PICKUP",
+    "stage_index": 5,
+    "coverage_type": "Out of Warranty (Standard Service)",
+    "deductible_quoted": 89.0,
+    "battery_health": 100,
+    "technician": "Priya Sharma (Genius Bar #019)",
+    "parts_used": [
+      "iPhone 13 Genuine Apple Replacement Battery"
+    ],
+    "created_at": "2026-09-13T03:27:24.933818+00:00",
+    "updated_at": "2026-09-13T20:42:24.933820+00:00",
+    "estimated_completion": "Ready Now",
+    "technician_notes": [
+      "Old battery capacity measured at 74.2%. Removed without cell puncture.",
+      "New battery installed, serialized, and paired via Apple System Configuration.",
+      "Current Health: 100%, Cycle Count: 0."
+    ],
+    "customer_notifications": [
+      "Device checked in for Battery Replacement.",
+      "Battery replaced and calibrated.",
+      "Your iPhone 13 is repaired, tested, and ready for pickup at the Genius Bar!"
+    ]
+  },
+  {
+    "repair_id": "APP-2026-5424",
+    "serial": "MND76X89K999",
+    "customer_name": "Tim Cook",
+    "customer_email": "tim@apple.com",
+    "device": "iPhone 16 Pro Max",
+    "issue": "Battery draining under 4 hours",
+    "stage": "DIAGNOSTIC_TRIAGE",
+    "stage_index": 1,
+    "coverage_type": "AppleCare+",
+    "deductible_quoted": 0.0,
+    "battery_health": 95,
+    "technician": "Genius Bar Service Specialist",
+    "parts_used": [],
+    "created_at": "2026-09-13T22:16:35.735508+00:00",
+    "updated_at": "2026-09-13T22:16:35.735956+00:00",
+    "estimated_completion": "Sep 15, 2026 10:16 PM",
+    "technician_notes": [
+      "Work order created. Device checked in by Tim Cook.",
+      "Preliminary symptom: Battery draining under 4 hours",
+      "Battery diagnostic confirmed 74% health."
+    ],
+    "customer_notifications": [
+      "Service Order APP-2026-5424 created. Quoted deductible: $0.00.",
+      "Status updated to: Diagnostic Triage. (Battery diagnostic confirmed 74% health.)"
+    ]
+  },
+  {
+    "repair_id": "APP-2026-9460",
+    "serial": "MND76X89K999",
+    "customer_name": "Tim Cook",
+    "customer_email": "tim@apple.com",
+    "device": "iPhone 16 Pro Max",
+    "issue": "Battery draining under 4 hours",
+    "stage": "DIAGNOSTIC_TRIAGE",
+    "stage_index": 1,
+    "coverage_type": "AppleCare+",
+    "deductible_quoted": 0.0,
+    "battery_health": 95,
+    "technician": "Genius Bar Service Specialist",
+    "parts_used": [],
+    "created_at": "2026-09-13T22:22:23.587441+00:00",
+    "updated_at": "2026-09-13T22:22:23.588083+00:00",
+    "estimated_completion": "Sep 15, 2026 10:22 PM",
+    "technician_notes": [
+      "Work order created. Device checked in by Tim Cook.",
+      "Preliminary symptom: Battery draining under 4 hours",
+      "Battery diagnostic confirmed 74% health."
+    ],
+    "customer_notifications": [
+      "Service Order APP-2026-9460 created. Quoted deductible: $0.00.",
+      "Status updated to: Diagnostic Triage. (Battery diagnostic confirmed 74% health.)"
+    ]
+  },
+  {
+    "repair_id": "APP-2026-5049",
+    "serial": "C02G80P0MD6R",
+    "customer_name": "Unit Test Customer",
+    "customer_email": "unittest@apple.com",
+    "device": "MacBook Pro 16",
+    "issue": "Trackpad haptic feedback failure",
+    "stage": "DIAGNOSTIC_TRIAGE",
+    "stage_index": 1,
+    "coverage_type": "AppleCare+",
+    "deductible_quoted": 99.0,
+    "battery_health": 95,
+    "technician": "Genius Bar Service Specialist",
+    "parts_used": [],
+    "created_at": "2026-09-13T23:22:46.813080+00:00",
+    "updated_at": "2026-09-13T23:22:46.814332+00:00",
+    "estimated_completion": "Sep 15, 2026 11:22 PM",
+    "technician_notes": [
+      "Work order created. Device checked in by Unit Test Customer.",
+      "Preliminary symptom: Trackpad haptic feedback failure",
+      "Hardware diagnostic running."
+    ],
+    "customer_notifications": [
+      "Service Order APP-2026-5049 created. Quoted deductible: $99.00.",
+      "Status updated to: Diagnostic Triage. (Hardware diagnostic running.)"
+    ]
+  },
+  {
+    "repair_id": "APP-2026-7265",
+    "serial": "C02G80P0MD6R",
+    "customer_name": "Unit Test Customer",
+    "customer_email": "unittest@apple.com",
+    "device": "MacBook Pro 16",
+    "issue": "Trackpad haptic feedback failure",
+    "stage": "DIAGNOSTIC_TRIAGE",
+    "stage_index": 1,
+    "coverage_type": "AppleCare+",
+    "deductible_quoted": 99.0,
+    "battery_health": 95,
+    "technician": "Genius Bar Service Specialist",
+    "parts_used": [],
+    "created_at": "2026-09-13T23:24:45.750185+00:00",
+    "updated_at": "2026-09-13T23:24:45.750859+00:00",
+    "estimated_completion": "Sep 15, 2026 11:24 PM",
+    "technician_notes": [
+      "Work order created. Device checked in by Unit Test Customer.",
+      "Preliminary symptom: Trackpad haptic feedback failure",
+      "Hardware diagnostic running."
+    ],
+    "customer_notifications": [
+      "Service Order APP-2026-7265 created. Quoted deductible: $99.00.",
+      "Status updated to: Diagnostic Triage. (Hardware diagnostic running.)"
+    ]
+  },
+  {
+    "repair_id": "APP-2026-7487",
+    "serial": "MND76X89K999",
+    "customer_name": "Tim Cook",
+    "customer_email": "tim@apple.com",
+    "device": "iPhone 16 Pro Max",
+    "issue": "Battery draining under 4 hours",
+    "stage": "DIAGNOSTIC_TRIAGE",
+    "stage_index": 1,
+    "coverage_type": "AppleCare+",
+    "deductible_quoted": 0.0,
+    "battery_health": 95,
+    "technician": "Genius Bar Service Specialist",
+    "parts_used": [],
+    "created_at": "2026-09-13T23:26:59.656948+00:00",
+    "updated_at": "2026-09-13T23:26:59.657623+00:00",
+    "estimated_completion": "Sep 15, 2026 11:26 PM",
+    "technician_notes": [
+      "Work order created. Device checked in by Tim Cook.",
+      "Preliminary symptom: Battery draining under 4 hours",
+      "Battery diagnostic confirmed 74% health."
+    ],
+    "customer_notifications": [
+      "Service Order APP-2026-7487 created. Quoted deductible: $0.00.",
+      "Status updated to: Diagnostic Triage. (Battery diagnostic confirmed 74% health.)"
+    ]
+  }
+]

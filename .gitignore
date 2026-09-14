@@ -1,0 +1,31 @@
+# Local Python environments and caches
+RAG_enterPriseSystem/.venv/
+RAG_enterPriseSystem/**/__pycache__/
+RAG_enterPriseSystem/**/*.py[cod]
+RAG_enterPriseSystem/.mypy_cache/
+RAG_enterPriseSystem/.pytest_cache/
+
+# Local secrets and machine files
+RAG_enterPriseSystem/.env
+RAG_enterPriseSystem/.DS_Store
+.DS_Store
+*.ses
+
+# Runtime logs and generated state
+RAG_enterPriseSystem/.logfire/
+RAG_enterPriseSystem/DATA/audit_log.jsonl
+RAG_enterPriseSystem/DATA/baseline_results.json
+RAG_enterPriseSystem/tmp/
+
+# Generated model/index artifacts
+RAG_enterPriseSystem/models/
+RAG_enterPriseSystem/index.faiss
+RAG_enterPriseSystem/metadata.pkl
+
+# Local generated deliverables
+caredesk_ai_evaluation_report.pdf
+
+# Optional legacy corpora and presentation assets; not required by the default app
+RAG_enterPriseSystem/DATA/noisy_data/
+RAG_enterPriseSystem/DATA/true_data/
+RAG_enterPriseSystem/assets/

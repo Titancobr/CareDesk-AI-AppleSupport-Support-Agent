@@ -1,0 +1,45 @@
+{
+  "source": "/Users/syedahmed/Enterprise_RAG/RAG_enterPriseSystem/DATA/twitter_support/apple_support.csv",
+  "source_rows": 213483,
+  "clean_customer_rows": 104472,
+  "apple_support_replies_indexed": 106860,
+  "unlinked_or_noise_rows_filtered": 2151,
+  "unclassified_percentage": 35.98,
+  "intent_counts": {
+    "os_software_troubleshooting": 39592,
+    "general_support_followup": 37588,
+    "hardware_repair_applecare": 17789,
+    "feature_how_to_guidance": 3987,
+    "account_security_access": 2607,
+    "payment_billing_refunds": 1734,
+    "delivery_order_tradein": 1175
+  },
+  "device_counts": {
+    "apple_ecosystem": 64275,
+    "iphone": 33419,
+    "mac": 2276,
+    "apple_watch": 1964,
+    "ipad": 1926,
+    "airpods": 241,
+    "apple_tv": 198,
+    "ipod": 173
+  },
+  "component_counts": {
+    "general": 50771,
+    "software_os": 26316,
+    "battery": 8286,
+    "display": 5677,
+    "connectivity": 3464,
+    "charging": 3247,
+    "account_security": 2886,
+    "audio": 1518,
+    "billing": 1428,
+    "camera": 757,
+    "liquid_damage": 122
+  },
+  "applecare_hardware_eligible_count": 19607,
+  "tfidf_terms_before_selection": 25000,
+  "selected_terms": 3000,
+  "svd_dimensions": 32,
+  "svd_explained_variance": 0.202048249172288
+}

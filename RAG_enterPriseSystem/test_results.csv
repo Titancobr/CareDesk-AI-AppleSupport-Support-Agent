@@ -1,0 +1,8 @@
+Test_Type,Status,Total_Elapsed_Seconds,Timestamp
+Qdrant Vector,PASS,16.48,2026-09-14T04:57:14.633706
+Knowledge Base & Deductibles,PASS,16.48,2026-09-14T04:57:14.633746
+Claim Engine,PASS,16.48,2026-09-14T04:57:14.633753
+Repair Lifecycle,PASS,16.48,2026-09-14T04:57:14.633757
+Guardrails & Safety Scope,FAIL,16.48,2026-09-14T04:57:14.633762
+RAG Query Pipeline,PASS,16.48,2026-09-14T04:57:14.633767
+FastAPI Endpoints,PASS,16.48,2026-09-14T04:57:14.633772

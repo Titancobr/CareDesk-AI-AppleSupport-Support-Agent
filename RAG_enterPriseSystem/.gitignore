@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+genv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+
+# Local Vector Store
+index.faiss
+metadata.pkl
+
+# Data
+
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+enterprise_env
+
+commands.md
+
+.logfire/
+
+tenvv
+
+# Claude Code memory & session data
+.claude/
+
+# Logs
+*.log
+
+# Runtime state
+:memory:.ses
+*.ses
+
+# Local generated files
+output/
+tmp/
+models/
+*.bin
+*.safetensors
+
+.streamlit/
+DOCS/
+notebooks/
+processed_data/
+
+.dockerignore
+.gcloudignore
+
+requirements-prod.txt
