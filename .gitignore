@@ -22,10 +22,12 @@ RAG_enterPriseSystem/models/
 RAG_enterPriseSystem/index.faiss
 RAG_enterPriseSystem/metadata.pkl
 
-# Local generated deliverables
-caredesk_ai_evaluation_report.pdf
+# Scratch directory
+scratch/
 
-# Optional legacy corpora and presentation assets; not required by the default app
+# Optional legacy corpora; not required by the default app
 RAG_enterPriseSystem/DATA/noisy_data/
 RAG_enterPriseSystem/DATA/true_data/
-RAG_enterPriseSystem/assets/
+RAG_enterPriseSystem/assets/diagrams/
+RAG_enterPriseSystem/assets/presentation/
+RAG_enterPriseSystem/assets/slide-previews/

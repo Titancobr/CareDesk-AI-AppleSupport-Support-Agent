@@ -3,6 +3,7 @@
 
 **Brand**: AppleSupport · **Dataset**: [thoughtvector/customer-support-on-twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter)
 
+> 📄 **Official 6-Page PDF Evaluation Report:** [caredesk_ai_evaluation_report.pdf](../caredesk_ai_evaluation_report.pdf)  
 > **Detailed evaluation analysis:** See [REPORT.md](REPORT.md) for problem framing, baseline results, failure analysis, headline-metric caveats, and the one-week improvement plan. See [DECISION_LOG.md](DECISION_LOG.md) for the non-obvious design decisions and their rationale.
 
 This repository contains a complete AI support agent for AppleSupport that:
