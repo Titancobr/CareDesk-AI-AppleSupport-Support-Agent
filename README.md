@@ -23,12 +23,11 @@
 | **📋 15 Engineering Decisions** | Architectural trade-offs, design rationale, and non-obvious engineering choices | [**DECISION_LOG.md**](DECISION_LOG.md) |
 | **🏛️ System Architecture** | Detailed dual-engine FastAPI + Streamlit agent graph, state management, and IP-SAKTI | [**ARCHITECTURE.md**](ARCHITECTURE.md) |
 | **🎯 Golden Test Dataset** | 200 hand-curated Q&A evaluation pairs (175 stratified RAG + 25 adversarial guardrail attacks) | [**evals/hiver_golden_200.json**](RAG_enterPriseSystem/evals/hiver_golden_200.json) |
-| **🐳 Docker Containerization** | One-command full-stack containerization (FastAPI port 8000 + Streamlit port 8501) | [**docker-compose.yml**](RAG_enterPriseSystem/docker-compose.yml) |
+| **🐳 Docker Containerization** | One-command full-stack containerization (FastAPI port 8000 + Streamlit port 8501) | [**docker-compose.yml**](docker-compose.yml) |
 
 ---
----
 
-## Docker Quickstart
+## ⚡ Docker Quickstart
 
 Docker Compose starts the FastAPI backend and Streamlit UI as separate services on one shared network.
 
