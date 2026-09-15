@@ -3,9 +3,9 @@
 <div align="center">
 
 [![PDF Report](https://img.shields.io/badge/Report-6--Page%20PDF-red?style=for-the-badge&logo=adobeacrobatreader)](caredesk_ai_evaluation_report.pdf)
-[![Evaluation Report](https://img.shields.io/badge/Documentation-REPORT.md-blue?style=for-the-badge&logo=markdown)](REPORT.md)
-[![Decision Log](https://img.shields.io/badge/Architecture-DECISION__LOG.md-purple?style=for-the-badge&logo=git)](DECISION_LOG.md)
-[![Architecture](https://img.shields.io/badge/System-ARCHITECTURE.md-darkgreen?style=for-the-badge&logo=diagramsdotnet)](ARCHITECTURE.md)
+[![Evaluation Report](https://img.shields.io/badge/Evaluation-REPORT.md-blue?style=for-the-badge&logo=markdown)](REPORT.md)
+[![Architecture](https://img.shields.io/badge/Architecture-ARCHITECTURE.md-darkgreen?style=for-the-badge&logo=diagramsdotnet)](ARCHITECTURE.md)
+[![Decision Log](https://img.shields.io/badge/Decisions-DECISION__LOG.md-purple?style=for-the-badge&logo=git)](DECISION_LOG.md)
 [![Golden Test Set](https://img.shields.io/badge/Golden%20Set-200%20Cases-orange?style=for-the-badge&logo=target)](RAG_enterPriseSystem/evals/hiver_golden_200.json)
 
 **Brand**: AppleSupport · **Dataset**: [thoughtvector/customer-support-on-twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter) · **LLM**: Groq Llama-3.3-70B · **Vector DB**: Qdrant Cloud · **Safety**: NeMo-Style Colang
